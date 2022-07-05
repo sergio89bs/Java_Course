@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Factura",
+            "request": "launch",
+            "mainClass": "Factura",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConversionTypes",
+            "request": "launch",
+            "mainClass": "ConversionTypes",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StartingWithJava",
+            "request": "launch",
+            "mainClass": "StartingWithJava",
+            "projectName": "Java_Course_28eb86d3"
+        }
+    ]
+}
