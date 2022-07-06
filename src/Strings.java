@@ -194,6 +194,42 @@ public class Strings {
         // Elimina espacios, tabuladores, retornos
         System.out.println("String with different lines: " + tt);
         System.out.println("String with different lines: " + tt.replaceAll("\\s",""));
+
+
+        /* -------------------------------------------------------------------------- */
+        /*                  METODOS PARA CONVERTIR CADENAS EN ARRAYS                  */
+        /* -------------------------------------------------------------------------- */
+
+        String bar = "Barcelona the best team";
+        
+        // Agregamos en formato char, una cadena de texto a un array
+        char [] arr = bar.toCharArray();
+
+        for (int i = 0; i < arr.length; i++) {
+
+            System.out.println("Position array:"+ i +" => " + arr[i]);            
+        }
+        //salto de linea
+         System.out.println("");
+
+        //Con el metodo split(), podemos agregar una cadena a un array, separando fragementos 
+
+        String [] arr2 = bar.split("a");
+
+        for (int i = 0; i < arr2.length; i++) {
+ 
+             System.out.println("Position array:"+ i +" => " + arr2[i].replaceAll(" ", ""));
+        }
+        System.out.println("");
+        //Segundo ejemplo usando split()
+        String p = "house.london.fly.png";
+
+        String [] arr3= p.split("[.]"); //Indicamos que se separen por el punto, caracteres especiales van entre []
+
+        for (int i = 0; i < arr3.length; i++) {
+ 
+             System.out.println("Position array:"+ i +" => " + arr3[i]);
+        }
     }
 
     

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ManagmentNames",
+            "request": "launch",
+            "mainClass": "ManagmentNames",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Extension",
+            "request": "launch",
+            "mainClass": "Extension",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
             "name": "Launch Strings",
             "request": "launch",
             "mainClass": "Strings",
