@@ -56,16 +56,7 @@ public class StartingWithJava {
         System.out.println("string.compareTo('hola'); = " +  string.compareTo("hola"));
 
 
-        //CONCATENAR STRINGS METODO SIMPLE
-
-        var str1 = "Hi! my name is ";
-        var str2 = "Sergio, i'm learning Java in this moment ";
-        var str3 = "so let me show you how concat different strings using +=";
-
-        str1 += str2;
-        str1 += str3;
-
-        System.out.println(str1);
+       
 
 
      //USANDO LA CLASE SCANNER PARA INTRODUCIR DATOS DESDE LA TERMINAL
