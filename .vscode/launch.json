@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch smallerNumber",
+            "request": "launch",
+            "mainClass": "exercices.smallerNumber",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameLonger",
+            "request": "launch",
+            "mainClass": "exercices.NameLonger",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepositFuel",
+            "request": "launch",
+            "mainClass": "exercices.DepositFuel",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepositFuel",
+            "request": "launch",
+            "mainClass": "DepositFuel",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch loginStrings",
+            "request": "launch",
+            "mainClass": "loginStrings",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
             "name": "Launch ManagmentNames",
             "request": "launch",
             "mainClass": "ManagmentNames",

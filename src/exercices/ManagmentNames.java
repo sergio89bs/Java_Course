@@ -1,3 +1,4 @@
+package exercices;
 import java.util.Scanner;
 
 public class ManagmentNames {
