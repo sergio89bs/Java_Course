@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ClassMath",
+            "request": "launch",
+            "mainClass": "ClassMath",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Valor_Referencia",
+            "request": "launch",
+            "mainClass": "Valor_Referencia",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wrapper",
+            "request": "launch",
+            "mainClass": "Wrapper",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch WrapperInteger",
+            "request": "launch",
+            "mainClass": "WrapperInteger",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuDinamico",
+            "request": "launch",
+            "mainClass": "exercices.MenuDinamico",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
+            "name": "Launch notasAlumnos",
+            "request": "launch",
+            "mainClass": "exercices.notasAlumnos",
+            "projectName": "Java_Course_28eb86d3"
+        },
+        {
+            "type": "java",
             "name": "Launch smallerNumber",
             "request": "launch",
             "mainClass": "exercices.smallerNumber",
